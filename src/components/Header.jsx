@@ -28,7 +28,7 @@ function Header() {
         <Link>
             <img src="/logo.png" className="h-20" />
         </Link>
-        <div className="flex gap-8 mr-20">
+        <div className="flex gap-8 ">
           <SignedOut>
             <Button variant="outline" onClick={()=>setShowSignIn(true)}>Login</Button>      
           </SignedOut>

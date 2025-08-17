@@ -184,11 +184,19 @@ button:focus-visible {
   color: white;
 }
 
-html,body{
-  overflow-x:hidden;
+
+
+/* Allow long words to break */
+
+
+/* Replace fixed widths with max-width or percentages */
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  padding: 0 15px; /* Add some padding instead of margin */
+  margin: 0 auto; /* Hide anything that overflows */
 }
-
-
 
 .btn-destructive {
   background-color: #b91c1c; /* dark red */
